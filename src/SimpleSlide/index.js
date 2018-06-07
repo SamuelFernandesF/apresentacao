@@ -31,7 +31,7 @@ export default class SimpleSlide extends React.Component {
             return (
                 <div>
                     <div className='list-header'>{this.props.list[it].header}</div>
-                    <div className='list-link'>{this.props.list[it].link}</div>
+                    <a target="_blank" href={this.props.list[it].link} className='list-link'>{this.props.list[it].linkText}</a>
                 </div>
             )
         })

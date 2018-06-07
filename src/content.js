@@ -24,7 +24,7 @@ export default
         size : 'col-md-4 col-12',
         header : 'React',
         subtext : 'O que é ?',
-        content : 'É uma biblioteca JavaScript declarativa, desenvolvida para criar interfaces visuais. Por se tratar de uma biblioteca, ele é mais flexível e menos complexo do que um framework. Sua única e principal função é a criação de interfaces de usuário, que organiza o que será mostrado para o usuário final na tela sem se preocupar em saber sobre o resto. O React é uma linguagem declarativa, ela se preocupa com o que o programador quer fazer. Ele se propõe em separar todo o código em pequenas partes que podem ser reutilizáveis como pequenos componentes.',
+        content : 'É uma biblioteca JavaScript declarativa, desenvolvida para criar interfaces visuais. Por se tratar de uma biblioteca, ele é mais flexível e menos complexa do que um framework. Sua única e principal função é a criação de interfaces de usuário, que organiza o que será mostrado para o usuário final na tela sem se preocupar em saber sobre o resto. O React é uma linguagem declarativa, ela se preocupa com o que o programador quer fazer e se propõe a separar todo o código em pequenas partes que podem ser reutilizáveis como pequenos componentes.',
         list : [],
         style: {
             background: 'rgb(69, 91, 109)',
@@ -109,8 +109,14 @@ export default
         size : 'col-md-4 col-12',
         header : 'Criador',
         subtext : 'Jordan Walke',
-        content : 'Ela foi desenvolvida pelo Facebook em 2011, e foi utilizada na interface de do mural de notícias da rede social. No ano seguinte começou a ser utilizada no Instagram e em 2013 o código foi aberto para comunidade, o que colaborou para sua grande popularização. ',
-        list : [],
+        content : 'Ela foi desenvolvida no Facebook em 2011, por Jordan Walke, foi utilizada na interface de do mural de notícias da rede social. No ano seguinte começou a ser utilizada no Instagram e em 2013 o código foi aberto para comunidade, o que colaborou para sua grande popularização. ',
+        list : [
+            {
+                header : '',
+                link : 'https://twitter.com/jordwalke',
+                linkText : 'Acessar',
+            }
+        ],
         style: {
             background: 'rgb(35, 88, 155)',
             color : 'white',
@@ -316,11 +322,13 @@ export default
         list : [
             {
                 header : 'Indeed',
-                link : 'https://www.indeed.com/q-React-Js-jobs.html'
+                link : 'https://www.indeed.com/q-React-Js-jobs.html',
+                linkText : 'Indeed Global'
             },
             {
                 header : 'Indeed (Br)',
-                link : 'https://www.indeed.com.br/empregos-de-React-em-S%C3%A3o-Paulo,-SP'
+                link : 'https://www.indeed.com.br/empregos-de-React-em-S%C3%A3o-Paulo,-SP',
+                linkText : 'Indeed Sp',
             },
         ],
         style: {
@@ -355,14 +363,17 @@ export default
             {
                 header : 'Palestra introdutória',
                 link : 'https://www.youtube.com/watch?v=_ZTT9kw3PIE&t=3916s',
+                linkText : 'Ver palestra'
             },
             {
                 header : 'React + Redux',
                 link : 'https://www.udemy.com/react-redux-pt/',
+                linkText : 'Ver curso'
             },
             {
                 header : 'Cursos em geral',
                 link : 'https://egghead.io',
+                linkText : 'Ver cursos'
             },
         ],
         style: {

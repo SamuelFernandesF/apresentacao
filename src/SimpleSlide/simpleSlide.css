@@ -15,7 +15,10 @@
     font-size : 1.2em; 
     margin-top: 20px
 }
+
 .list-link { 
     margin-bottom: 10px;
     font-size: .9em;
+    color: white;
+    cursor: pointer;
 }
