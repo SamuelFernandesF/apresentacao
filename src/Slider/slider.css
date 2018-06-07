@@ -1,0 +1,16 @@
+.slider {
+    height: calc(100vh - 55px);
+    width: 100%;
+    margin-top: 55px;
+    /* border: 1px solid red; */
+    transition: opacity .5s;
+
+}
+
+.slider.active {
+    opacity: 1;
+}
+
+.slider.hidden {
+    opacity: 0;
+}

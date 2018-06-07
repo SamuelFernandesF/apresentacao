@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background: #f9f9f9;
+    font-family: 'Lato';
+    font-size: 1em;
+    color : rgb(97, 97, 97);
+    width: 100%;
+    overflow: hidden;
+}
+
+/***************************************/
+/* FLEX ALIGN CLASSES
+/***************************************/
+.justify-center { justify-content: center; }
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+
+.align-center { align-items: center; }
+.align-start { align-items: flex-start; }
+.align-end { align-items: flex-end; }
+
+/***************************************/
+/* WIDTH CLASSES
+/***************************************/
+.w-100 { width: 100%; }
+
+/***************************************/
+/* HEIGHT CLASSES
+/***************************************/
+.w-100 { width: 100%; }
+
+/***************************************/
+/* MARGIN CLASSES
+/***************************************/
+.m-0 { margin : 0}
+
+.mt-10 { margin-top: 10px;}
+.mt-20 { margin-top: 20px;}
+.mt-30 { margin-top: 30px;}
+.mt-40 { margin-top: 40px;}
+.mt-50 { margin-top: 50px;}
+
+/***************************************/
+/* PADDING CLASSES
+/***************************************/
+.p-0  { padding : 0 }
+.p-10 { padding : 10px }
+.p-20 { padding : 20px }
+.p-30 { padding : 30px }
+.p-40 { padding : 40px }
+
+.pt-0  { padding-top: 0px;}
+.pt-10 { padding-top: 10px;}
+.pt-20 { padding-top: 20px;}
+.pt-30 { padding-top: 30px;}
+.pt-40 { padding-top: 40px;}
+.pt-50 { padding-top: 50px;}

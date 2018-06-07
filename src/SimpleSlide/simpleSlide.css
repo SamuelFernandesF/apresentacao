@@ -1,0 +1,21 @@
+.header {
+    font-size : 5em;
+    margin-left: -4px;
+    line-height : .9em;
+    font-family : Oswald;
+    text-transform: uppercase;
+}
+
+.subtitle { 
+    font-size : 1.3em;
+    text-transform : uppercase;
+}
+
+.list-header { 
+    font-size : 1.2em; 
+    margin-top: 20px
+}
+.list-link { 
+    margin-bottom: 10px;
+    font-size: .9em;
+}
