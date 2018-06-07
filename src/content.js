@@ -312,8 +312,17 @@ export default
         size : 'col-md-4 col-12',
         header : 'Mercado',
         subtext : 'De trabalho',
-        content : 'We looked at targeting options for employers on Stack Overflow Jobs that were used by at least 200 companies since the beginning of 2015. The fastest growing targets are ReactJS, Docker, Ansible, and Apache Spark, followed by System Administration and QA.',
-        list : [],
+        content : 'O gráfico ao lado mostra o crescimento das buscas por profissionais que tenham conhecimento de React.',
+        list : [
+            {
+                header : 'Indeed',
+                link : 'https://www.indeed.com/q-React-Js-jobs.html'
+            },
+            {
+                header : 'Indeed (Br)',
+                link : 'https://www.indeed.com.br/empregos-de-React-em-S%C3%A3o-Paulo,-SP'
+            },
+        ],
         style: {
             background: 'rgb(29, 91, 109)',
             color : 'white',
